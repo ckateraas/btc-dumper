@@ -1,7 +1,6 @@
 #! /usr/bin/env python
 
 import os
-import tempfile
 import sqlite3
 from utils import parse_ldb
 from db_helper import initialize, get_database_file, fetch_addresses_from_database, add_address
