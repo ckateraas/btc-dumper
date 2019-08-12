@@ -30,6 +30,4 @@ def get_arguments():
         default=None,
         help='Path to SQLite database file to use'
     )
-    parsed_arguments = parser.parse_args()
-
-    return parsed_arguments
+    return parser.parse_args()
